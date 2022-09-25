@@ -1,0 +1,116 @@
+@import url('/css/first-styles.css');
+@import url('/css/font-styles.css');
+
+/* ------------------------ */
+/* nav section */
+/* ------------------------ */
+
+.navigation {
+  padding: 0 2rem;
+}
+.navigation__menu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'Averta Demo PE Cutted Demo';
+
+}
+.menu__logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  flex: 1 1 auto;
+}
+
+.menu__logo > span{
+font-weight:  700;
+}
+
+.menu__list {
+  display: flex;
+}
+.list__item {
+font-weight: 400;
+font-size: 22px;
+padding-left: 1.75rem;
+
+letter-spacing: 0.01em;
+text-transform: capitalize;
+}
+
+/* -------------------------- */
+/* headline section */
+/* -------------------------- */
+
+.headline {
+  display: flex;
+  margin-top: 2.5rem;
+  background: url('/images/Ellipse\ 85.png') no-repeat 62% 0%,
+  url('/images/Rectangle\ 23.png') no-repeat 70% 100%;
+}
+.headline__content {
+  font-family: 'Averta Demo PE Cutted Demo';
+  margin: 3.75rem;
+}
+.headline__title {
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+}
+.headline__text {
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #565656;
+margin-top: 2rem;
+}
+.headline__btn {
+  background: #2639ED;
+border-radius: 60px;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.065em;
+color: #FFFFFF;
+padding: 1rem 2.5rem;
+margin-top: 2rem;
+
+}
+
+/* ---------------------- */
+/* clients section */
+/* -------------------- */
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  flex: 0 1 50%;
+}
+.client__content{
+
+  font-family: 'Averta Demo PE Cutted Demo';
+}
+.client__title {
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+text-transform: capitalize;
+}
+.client__text {
+  font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #757575;
+
+}
+.client__row {
+  display: flex;
+  align-items: center;
+}
+
+.client__row img{
+  margin-left: 2rem;
+}
+
+/* ------------------------- */
