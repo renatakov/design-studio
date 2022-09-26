@@ -6,7 +6,7 @@
 /* ------------------------ */
 
 .navigation {
-  padding: 0 2rem;
+  padding: 2rem 2rem;
 }
 .navigation__menu {
   display: flex;
@@ -83,7 +83,7 @@ margin-top: 2rem;
 .client {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 3rem;
   flex: 0 1 50%;
 }
@@ -114,3 +114,74 @@ color: #757575;
 }
 
 /* ------------------------- */
+/* business help section */
+/* ------------------------ */
+
+.business-help {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Averta Demo PE Cutted Demo';
+  margin-top: 6rem;
+  background: url('/images/Rectangle\ 25.png') no-repeat 5% 0%,
+  url('/images/Rectangle\ 24.png') no-repeat 90% -20%;
+}
+
+.business-help__leftside{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 20%;
+  margin-left: 3rem;
+}
+.business-help__title {
+font-weight: 700;
+font-size: 40px;
+}
+.business-help__text {
+  font-size: 16px;
+  line-height: 160%;
+  color: #565656;
+  margin-top: 1rem;
+}
+.business-help__group {
+  display: flex;
+  flex: 0 1 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0 5rem;
+
+}
+.item {
+  margin: 1rem;
+}
+.item__subtitle {
+  font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+}
+.item__subtext {
+  font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #757575;
+}
+.group__box-2 {
+  margin-left: 3rem;
+}
+.item-2 {
+  margin: 1rem;
+}
+.item-2__subtitle {
+  font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+}
+.item-2__subtext {
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #757575;
+}
