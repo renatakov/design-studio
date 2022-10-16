@@ -213,3 +213,121 @@ text-align: center;
 padding-top: 3rem;
 margin-bottom: 6rem;
 }
+
+/* ---------------------------- */
+/*-- newsletter section --*/
+/* ---------------------------- */
+
+.newsletter {
+  background:url('/images/Rectangle\ 31.png') no-repeat 90% 0% #F4F9FF ;
+  border-radius: 25px;
+  padding: 4rem;
+  margin: 3rem;
+  font-family: 'Averta Demo PE Cutted Demo';
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.newsletter__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+.newsletter__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #757575;
+}
+.newsletter__form {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 60px;
+}
+
+#form__email-input{
+  font-size: 16px;
+  line-height: 20px;
+  color: #959595;
+}
+#form__submit{
+  background: #2639ED;
+  border-radius: 60px;
+  padding: 1.25rem 2.5rem;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+}
+
+/* ---------------------------------- */
+/* --footer-- */
+/* ---------------------------------- */
+
+.footer {
+  font-family: 'Averta Demo PE Cutted Demo';
+
+}
+.footer__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row__column-1 {
+flex: 0 1 33.3333%;
+}
+.column-1__logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  flex: 1 1 auto;
+}
+.column-1__logo > span{
+font-weight:  700;
+}
+.column-1__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-top: 1rem;
+  color: #565656;
+}
+.column-1__logos-row {
+margin-top: 1rem;
+display: flex;
+}
+
+.column-1__logos-row :not(img:first-child){
+  margin-left: 1rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.li {
+  font-size: 14px;
+line-height: 200%;
+padding-top: 0.5rem;
+}
+.row__column-3,
+.row__column-4,
+.row__column-5{
+  align-self: start;
+}
+
+
+
+.copyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+.copyrights__text {
+  font-family: 'Averta Demo PE Cutted Demo';
+font-size: 14px;
+line-height: 160%;
+color: #A4A4A4;
+}
